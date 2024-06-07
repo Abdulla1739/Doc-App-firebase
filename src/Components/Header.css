@@ -1,0 +1,58 @@
+/* Basic styles for navbar to align items and apply padding */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styles for brand */
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Logo styling */
+.logo {
+    cursor: pointer;
+}
+
+/* Search box styling */
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #242424;
+    border-radius: 50px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.search-box input {
+    padding: 2px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+}
+.search-box input::placeholder{
+    text-align: center;
+}
+
+/* Search icon styling */
+.search-box img {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+/* Button group styling */
+.btnGrp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
