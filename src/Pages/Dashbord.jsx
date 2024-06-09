@@ -38,6 +38,7 @@ const Dashbord = () => {
       <div
         ref={ref}
         className="fixed z-[3] top-20 bottom-10 left-0 w-full flex gap-8 flex-wrap px-3 pb-2"
+        style={{ overflowY: "scroll", height: "100%" }}
       >
         {userfilterData.length > 0 ? (
           userfilterData.map((data) => (
